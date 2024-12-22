@@ -1,2 +1,2 @@
-# qe code generator
- It ShowCases My All Projects By Scanning Just QR Code.
+# qr code generator
+Generate QR Codes To Showcase And Access All Your Projects Seamlessly.
