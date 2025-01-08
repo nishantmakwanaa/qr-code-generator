@@ -1,4 +1,3 @@
-// ProjectCard.tsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ProjectInfo } from './ProjectInfo';
@@ -19,10 +18,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
       viewport={{ once: true }}
       transition={{ duration: 0.8, delay: index * 0.2 }}
     >
-      {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       
-      {/* Project Content */}
       <div className="relative z-10 flex flex-col lg:flex-row items-center gap-8">
         <ProjectInfo project={project} />
         <ProjectQR url={project.url} />
