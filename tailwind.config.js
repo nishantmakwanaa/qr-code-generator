@@ -7,6 +7,9 @@ export default {
         sans: ['Inter', 'sans-serif'],
         display: ['Outfit', 'sans-serif'],
       },
+      height: {
+        'screen-custom': 'calc(100vh - 4rem)',
+      },
     },
   },
   plugins: [],
