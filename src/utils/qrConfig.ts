@@ -7,9 +7,9 @@ export interface QRConfig {
 }
 
 export const defaultQRConfig: QRConfig = {
-  size: 300,
+  size: 400,
   level: 'H',
-  fgColor: '#6366f1',
-  bgColor: 'rgba(255, 255, 255, 0.05)',
+  fgColor: '#000000',
+  bgColor: '#ffffff',
   includeMargin: true,
 };

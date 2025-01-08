@@ -22,11 +22,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
       
       <div className="relative z-10 flex flex-col lg:flex-row lg:items-center gap-4 w-full px-8 lg:px-24">
 
-        <div className="flex-1 lg:w-1/2">
+        <div className="flex-1 lg:w-1/2 mb-6 lg:mb-0">
           <ProjectInfo project={project} />
         </div>
 
-        <div className="flex-none flex justify-center items-center lg:w-auto">
+        <div className="flex-none flex justify-center items-center lg:w-auto w-full max-w-[600px]">
+
           <ProjectQR url={project.url} />
         </div>
       </div>

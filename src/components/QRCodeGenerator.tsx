@@ -17,6 +17,10 @@ export const QRCodeGenerator: React.FC<QRCodeGeneratorProps> = ({
   const [isHovered, setIsHovered] = useState(false);
   const finalConfig = { ...defaultQRConfig, ...config };
 
+  if (!url || typeof url !== 'string') {
+    return <div>Error : Invalid URL</div>;
+  }
+
   return (
     <motion.div
       className={`relative ${className}`}
@@ -32,10 +36,10 @@ export const QRCodeGenerator: React.FC<QRCodeGeneratorProps> = ({
       >
         <QRCodeSVG
           value={url}
-          size={finalConfig.size}
+          size={400}
           level={finalConfig.level}
-          fgColor={finalConfig.fgColor}
-          bgColor={finalConfig.bgColor}
+          fgColor="#000000"
+          bgColor="#ffffff"
           includeMargin={finalConfig.includeMargin}
           className="w-full h-full rounded-xl shadow-2xl"
         />
