@@ -21,7 +21,7 @@ export const projects: Project[] = [
     id: '3',
     title: 'Phoenix - E-Waste Recycling App',
     description: 'An AI-Assisted E-Waste Recycling Platform That Guides Users Through Eco-Friendly Disposal Practices And Connects Them With Trusted Recycling Services.',
-    url: 'https://example.com/phoenix-ewaste',
+    url: 'https://wasterecycler.vercel.app/',
     image: 'https://images.unsplash.com/photo-1521790364907-52a33a4295a2?w=800&auto=format&fit=crop&q=60',
     category: 'web'
   }
