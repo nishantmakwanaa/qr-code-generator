@@ -27,7 +27,7 @@ function App() {
               Tech-Manjari 2025 Projects
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-10">
-              Scroll Down & Scan QR To Explore The Projects.
+              Scan Below QR's To Explore Projects.
             </p>
             <button
               onClick={handleScrollToProjects}
@@ -45,7 +45,7 @@ function App() {
 
       <footer className="text-center py-6 sm:py-8 text-gray-400">
         <p className="text-sm sm:text-base font-light">
-          Nishant Makwana © 2024. All Rights Reserved.
+          Nishant Makwana © 2025, All Rights Reserved.
         </p>
       </footer>
     </div>

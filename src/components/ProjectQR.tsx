@@ -12,7 +12,7 @@ export const ProjectQR: React.FC<ProjectQRProps> = ({ url }) => {
         <QRCodeGenerator
           url={url}
           config={{
-            size: 500,
+            size: 700,
             level: 'H',
             fgColor: '#6366f1',
             bgColor: 'rgba(255, 255, 255, 0.05)',
