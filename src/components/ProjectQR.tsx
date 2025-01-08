@@ -8,7 +8,7 @@ interface ProjectQRProps {
 export const ProjectQR: React.FC<ProjectQRProps> = ({ url }) => {
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="relative aspect-square w-full max-w-[500px] sm:max-w-[600px] lg:max-w-[700px] mx-auto">
+      <div className="relative aspect-square w-full max-w-[600px] sm:max-w-[700px] lg:max-w-[800px] mx-auto">
         <QRCodeGenerator
           url={url}
           config={{
