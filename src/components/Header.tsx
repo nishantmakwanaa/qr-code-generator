@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        My Products
+        Scan Below QR Code's To Explore Projects.
       </motion.h1>
       <motion.p
         className="text-base sm:text-lg lg:text-xl text-gray-300 max-w-xl sm:max-w-2xl mx-auto font-light"
@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
       >
-        Scan To Explore My Projects.
+        Eat, Sleep, Code, Repeat.
       </motion.p>
     </motion.div>
   );
